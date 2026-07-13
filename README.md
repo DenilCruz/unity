@@ -1,17 +1,9 @@
-# Shooter en Primera Persona (FPS) - Informe de Proyecto Unity
-
-Este documento detalla la estructura, funcionalidades clave y herramientas tecnológicas utilizadas en el desarrollo del videojuego tipo **Shooter en Primera Persona (FPS)**.
-
----
-
 ## 1. Descripción del Proyecto
-El proyecto consiste en un videojuego interactivo en 3D en primera persona. El jugador debe navegar por un escenario, enfrentarse a enemigos dotados de inteligencia artificial de persecución, gestionar su munición mediante recargas manuales, alternar entre múltiples armas para optimizar su daño y curar sus puntos de vida recolectando botiquines en el mapa con el fin de alcanzar una zona de meta.
+El proyecto consiste en un videojuego interactivo en 3D en primera persona. El jugador debe navegar por un escenario, enfrentarse a enemigos con inteligencia artificial de persecución, gestionar su munición mediante recargas manuales, alternar entre múltiples armas y curar sus puntos de vida recolectando botiquines en el mapa con el fin de alcanzar una zona de meta.
 
 ---
 
-## 2. Características del Gameplay e Implementación de Scripts
-
-El core del sistema de juego se ha programado en C# bajo componentes reutilizables:
+## 2. Características del Juego e Implementación de Scripts
 
 * **Controlador en Primera Persona (`PrimeraPersona.cs`)**: Gestiona las físicas de movimiento tridimensional y el comportamiento de la cámara simulando la perspectiva de ojos del jugador.
 * **Sistema de Disparo (`Disparar.cs`)**: Implementa el combate por proyección de rayos (*Raycast*). Maneja la cadencia de fuego, el consumo y recarga de munición, efectos visuales de destello en el cañón (*Muzzle flash*) e interfaz de usuario (UI) para la munición.
